@@ -1,0 +1,36 @@
+---------------------------------------------
+Veranderd:
+Ken NabestaandenPensioen toe Startevent,Registreer Betaalgegevens,2201
+
+Naar:
+Ken NabestaandenPensioen toe Startevent,Gepensioneerde GW,2199
+
+
+verwijderde records:
+Registreer Betaalgegevens,Registreer fiscale gegevens,2200
+Registreer Gepensioneerde,Gepensioneerde GW,2199
+Registreer fiscale gegevens,Registreer Gepensioneerde,2199
+
+----------------------------------------------------------------
+V2 veranderd:
+Vraag Gba en Svb abonnement aan start GW,Vraag GBA abonnement aan,940,0
+
+Naar:
+Vraag Gba en Svb abonnement aan start GW,Vraag Gba en Svb abonnement aan eind GW,940,0
+
+
+
+V2 verwijderde records:
+Vraag GBA abonnement aan,Vraag Gba en Svb abonnement aan eind GW,941,9
+Vraag SVB abonnement aan,Vraag Gba en Svb abonnement aan eind GW,941,11
+
+
+----------------------------------------------------------------------
+V3 veranderd:
+Vraag Gba en Svb abonnement aan start GW,Vraag Gba en Svb abonnement aan eind GW,940,0
+
+Naar:
+Vraag Gba en Svb abonnement aan GW,Informeer Nabestaande,940,0
+
+V3 verwijderde record:
+Vraag Gba en Svb abonnement aan eind GW,Informeer Nabestaande,941,10

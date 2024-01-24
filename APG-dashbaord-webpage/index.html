@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APG Nabestaande Pensioen Dashboard</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3-legend/1.1.0/d3-legend.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Proza+Libre' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap" rel="stylesheet">
+
+      <!-- SEO / Google -->
+      <meta name="author" content="Jimmy Smeijsters">
+      <meta name="description" content="APG Nabestaande Pensioen gemaakt voor de minor Data Visualisation op Zuyd Hogeschool. Het Dashboard bevat een Sankey Diagram, Stacked Bar Charts & Panel Charts">
+      
+      <!-- Social: Twitter -->
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="APG Nabestaande Pensioen Dashboard">
+      <meta name="twitter:description" content="APG Nabestaande Pensioen gemaakt voor de minor Data Visualisation op Zuyd Hogeschool. Het Dashboard bevat een Sankey Diagram, Stacked Bar Charts & Panel Charts">
+      <meta name="twitter:image:src" content="https://1750399smeijsters.github.io/APG-Dashboard-NP/sankey-social-card.png">
+
+</head>
+<body>
+    <div class="title-header"> APG Nabestaande Pensioen Dashboard <img src="img/apg-logo.png" class="apg-logo" alt="APG logo"></div>
+    <div class="introduction-box">
+
+      <div class="kpi-grid">
+        <div class="kpi1 kpi-grid-item"> 
+          <span class="KPI-value">26*</span><br> <span class="KPI-title">Gemiddelde Doorlooptijd <br> (in dagen)</span>
+        </div>
+        <div class="kpi1 kpi-grid-item">
+          <span class="KPI-value">88.7%*</span><br> <span class="KPI-title">Afgeronde cases</span>
+        </div>
+        <div class="kpi1 kpi-grid-item">
+          <span class="KPI-value">3.6K*</span><br> <span class="KPI-title">Openstaande cases</span>
+        </div>
+        <div class="kpi1 kpi-grid-item">
+          <span class="KPI-value">862*</span><br> <span class="KPI-title">Cases 'To-Do' vandaag</span>
+        </div>
+      </div>
+
+      <div class="intoruction-text-box">
+        <p class="introduction-text">
+          Welkom op het APG Nabestaande Pensioen (NP) dashboard! Deze website is gemaakt voor de minor Data Visualisatie op Zuyd Hogeschool met APG als opdrachtgever. Data geleverd door APG dat verwerkt is in de visualisatie heeft betrekking op de cases binnnen het NP proces die gestart zijn in kwartaal 4 van 2020 en inmiddels afgerond. Dit Dashboard bevat een visualisatie voor het GPS-V systeem en het GPS-C systeem die de volgende vragen beantwoorden:
+          <li>Hoe verloopt de afhandeling van cases binnen het GPS-V systeem?</li>
+          <li>Wat is de doorlooptijd van cases binnen GPS-C?</li>
+          <p class="KPI-comment">* Opmerking: Door gebrek aan tijd is het niet gelukt om bovenstaande KPI’s met echte data te koppelen. Zij dienen nu als placeholders en inspiratie voor het dashboard.</p>
+        </p>
+      </div>
+    </div>
+
+    <div class="sankey-section-box">
+      <h2>Process Flow van GPS-V</h2>
+      <div class="sankey-description-box">
+        <p class="sankey-description-text">
+          Onderstaande visualisatie is een Sankey Diagram en is gericht om de voglende vraag te beantwoorden: Hoe verloopt de afhandeling van cases binnen het GPS-V systeem?. Cases kunnen niet altijd volledig afgerond worden door GPS-V, bijvoorbeeld als er data ontbreekt of een error ontstaat. Dan komen deze cases bij GPS-C terecht waar medewerkers handmatig de cases afronden. De visualisatie toont hoeveel cases bij welk stap eindigen. Klik op de visualisatie om naar een interactieve website te gaan waar stapnamen en absolute waardes getoond kunnen worden.
+        </p>
+      </div>
+      <div class="sankey-visualization-box">
+        <a href="https://1750399smeijsters.github.io/APG-sankey-diagram/" target="_blank">
+          <img src="img/GPS-V-Sankey-Diagram.svg" alt="GPS-V Sankey Diagram" class="sankey-svg"  >
+        </a>
+      </div>
+    </div>
+    
+
+
+    <div class="section-break"></div>
+
+
+
+    <div class="bar-chart-section-box">
+      <h2>Doorlooptijd Performance GPS-Classic</h2>
+      <div class="bar-chart-description-box">
+        <p class="bar-chart-description-text">
+          Onderstaande visualisatie toont de doorlooptijd performance door middel van een Stacked Bar Chart en Panel Chart. De visualisatie is gericht om de volgende vraag te beantwoorden: Wat is de doorlooptijd van cases binnen GPS-C?. De doorlooptijd is het verschil tussen start- en einddatum van een case in dagen. Hover over de visualisatie heen om meer gegevens te zien. Klik ook op een van de knoppen om de splitsing van de Stacked Bar Chart te veranderen.
+        </p>
+      </div>
+
+      <div class="main-bar-chart-box"></div>
+
+      <div class="buttons-box">
+        <div class="buttons-text">Split de Bar Chart:</div>
+        <div class="div-button" id="split-button1" onclick="splitPerCat()">Per doorlooptijd categorie</div>
+        <div class="div-button" id="split-button2" onclick="splitPerMonth()">Per maand uit Q4Y2020</div>
+      </div>
+
+      <div class="panel-charts-grid">
+        <div class="panel-chart-item" id="panel-chart1">Voorbereiden NP</div>
+        <div class="panel-chart-item" id="panel-chart2">Verzoek Info eigen situatie</div>
+        <div class="panel-chart-item" id="panel-chart3">Toekennen NP</div>
+        <div class="panel-chart-item" id="panel-chart4">SVB rechtsgegevens</div>
+        <div class="panel-chart-item" id="panel-chart5">Beeind. agv overlijden</div>
+      </div>
+    </div>
+
+
+    <div class="footer">
+      <div class="name-box">Gemaakt door: Jimmy Smeijsters</div>
+      <div class="year-box">April 2021</div>
+    </div>
+
+
+    <script src="js/main-stacked-bar-chart.js"></script>
+    <script src="js/detail-bar-chart-per-cat.js"></script>
+    <script src="js/detail-bar-chart-per-month.js"></script>
+    <script src="js/dom-manipulation.js"></script>
+
+</html>
+
+</body>

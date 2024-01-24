@@ -1,0 +1,283 @@
+html{
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+}
+
+text{
+  line-height: 1.6;
+}
+
+
+
+
+
+.section-break{
+  margin: 0px 75px;
+  border-top: lightgray 1px solid;
+}
+
+/* Title banner grid */
+.title-header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #529CC7;
+  padding: 25px 50px;
+  padding-left: 100px;
+  font-family: 'Lato', sans-serif;
+  font-size: 28pt;
+  color: white;
+}
+
+.apg-logo{
+  height: 40px;
+}
+
+/* Introduction section */
+
+/* KPI Section*/
+
+.KPI-value{
+  font-family: 'overpass', sans-serif;
+  font-size: 30pt;
+  font-weight: 700;
+}
+
+.KPI-title{
+  font-family: 'overpass', sans-serif;
+  font-size: 10pt;
+}
+
+
+.introduction-box{
+  background-color: #CFEDFF;
+  padding: 0px 100px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+  border-bottom: 1px #529CC7 solid;
+  box-shadow: 0px 4px 15px #e4e4e4;
+}
+
+.kpi-grid{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  padding: 50px 0px;
+}
+
+.kpi-grid-item{
+  height: auto;
+  color: #376985;
+}
+
+.introduction-text{
+  font-size: 14pt;
+  color: #376985;
+  font-family: 'overpass', sans-serif;
+  font-weight: 300;
+  line-height:21pt;
+  padding-bottom: 10px;
+}
+
+li{
+  font-size: 14pt;
+  color: #376985;
+  font-family: 'overpass', sans-serif;
+  font-weight: 300;
+  line-height:21pt;
+}
+
+.KPI-comment{
+  margin-top: 15px;
+  font-size: 12pt;
+  color: #376985;
+  font-style: italic;
+}
+
+
+/* Sankey section */
+.sankey-section-box{
+  padding: 75px 100px;
+}
+
+.sankey-svg{
+  width: 1025px;
+  margin-top: 10px;
+}
+
+h2{
+  font-size: 20pt;
+  text-align: center;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
+}
+
+.sankey-description-box{
+  padding: 0px 150px;
+}
+
+.sankey-description-text{
+  padding: 35px 0px;
+  font-family: 'overpass', sans-serif;
+  font-weight: 300;
+  line-height: 18pt;
+}
+
+
+.sankey-visualization-box{
+  height: 400px;
+}
+
+
+/* Bar Chart section */
+.bar-chart-section-box{
+  padding: 75px 50px;
+}
+
+.bar-chart-description-box{
+  padding: 0px 200px;
+}
+
+.bar-chart-description-text{
+  padding: 35px 0px;
+  font-family: 'overpass', sans-serif;
+  font-weight: 300;
+  line-height: 18pt;
+}
+
+  /* Main Bar Chart */
+  .main-bar-chart-box{
+    margin: 0px 50px;
+    height: auto;
+    align-items: center;
+  }
+
+  /* Panel Charts */
+  .panel-charts-grid{
+    column-gap: 15px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .panel-chart-item{
+    border-right: lightgray 1px solid;
+  }
+
+
+
+
+
+/* Buttons design */
+.buttons-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  padding: 0px 350px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.div-button{
+  vertical-align: center;
+  padding: 15px 0px;
+  border: 1px #FFB765 solid;
+  font-family: 'overpass', sans-serif;
+  font-weight: 300;
+  background-color: rgb(255, 255, 255);
+}
+
+.buttons-text{
+  font-style: italic;
+  padding-bottom: 10px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.div-button:hover{
+  cursor: pointer;
+}
+
+
+
+/* svg css */
+
+.axis text {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+  }
+  
+.axis .label {
+  font-size: 20pt;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+
+.x.axis.cat text {
+  font-size: 10pt;
+}
+
+
+.x.axis.cat line {
+  stroke: none;
+}
+
+
+.x.axis.monthly text {
+  font-size: 9pt;
+}
+
+.y.axis.monthly text {
+  font-size: 10pt;
+}
+
+
+.color-legend text {
+  font-family: 'Overpass', sans-serif;
+  font-size: 11pt;
+}
+
+div.tooltip {	
+  color: white;
+  position: absolute;			
+  text-align: left;			
+  width: fit-content;					
+  height: fit-content;					
+  padding: 5px 10px;				
+  font: 15px sans-serif;
+  border: 0px;		
+  border-radius: 8px;			
+  pointer-events: none;			
+}
+
+text.bar-text{
+  font-size: 11pt;
+}
+
+
+
+
+
+/* Footer */
+
+.footer{
+  background-color: #CFEDFF;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 20px;
+  padding: 10px 30px;
+  color: #376985;
+  font-style: italic;
+}
+
+
+.year-box{
+  text-align: right;
+  vertical-align: middle;
+}

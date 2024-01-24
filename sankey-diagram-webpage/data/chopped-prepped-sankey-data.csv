@@ -1,0 +1,13 @@
+source,target,value,First_NodeID
+Ken NabestaandenPensioen toe Startevent,Gepensioneerde GW,2199,1
+Bepaal wijze toekennen,Wijze toekennen GW,1659,6
+Gepensioneerde GW,Bepaal wijze toekennen,1659,5
+Start GPSC Toekennen NP,Eind wegens doelgroep niet ondersteund,1248,14
+Wijze toekennen GW,Ken NabestaandenPensioen toe,1019,7
+Informeer Nabestaande,Eind ken NabestaandenPensioen toe,941,12
+Ken NabestaandenPensioen toe,Vraag Gba en Svb abonnement aan start GW,941,8
+Vraag Gba en Svb abonnement aan start GW,Informeer Nabestaande,940,0
+Wijze toekennen GW,Start GPSC Toekennen NP,636,7
+Gepensioneerde GW,Start GPSC Toekennen NP,540,5
+Ken NabestaandenPensioen toe,Error ken NabestaandenPensioen toe,78,8
+Error ken NabestaandenPensioen toe,Start GPSC Toekennen NP,72,16

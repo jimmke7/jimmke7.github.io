@@ -1,0 +1,76 @@
+startCaseMonth,processDurationCategory,categoryCriteria,processCategoryCount,processName,percentageValue
+10,Category 1,<= 5 Days,444,Beeind. agv overlijden,0.9288703
+10,Category 2,<= 10 Days,18,Beeind. agv overlijden,3.76569e-02
+10,Category 3,<= 20 Days,15,Beeind. agv overlijden,3.138075e-02
+10,Category 4,<= 30 Days,1,Beeind. agv overlijden,2.09205e-03
+10,Category 5,> 30 Days,0,Beeind. agv overlijden,0
+11,Category 1,<= 5 Days,553,Beeind. agv overlijden,0.9753087
+11,Category 2,<= 10 Days,10,Beeind. agv overlijden,1.763668e-02
+11,Category 3,<= 20 Days,4,Beeind. agv overlijden,7.054674e-03
+11,Category 4,<= 30 Days,0,Beeind. agv overlijden,0
+11,Category 5,> 30 Days,0,Beeind. agv overlijden,0
+12,Category 1,<= 5 Days,493,Beeind. agv overlijden,0.9840319
+12,Category 2,<= 10 Days,7,Beeind. agv overlijden,1.397206e-02
+12,Category 3,<= 20 Days,0,Beeind. agv overlijden,0
+12,Category 4,<= 30 Days,1,Beeind. agv overlijden,1.996008e-03
+12,Category 5,> 30 Days,0,Beeind. agv overlijden,0
+10,Category 1,<= 5 Days,8,SVB rechtsgegevens,4.519774e-02
+10,Category 2,<= 10 Days,24,SVB rechtsgegevens,0.1355932
+10,Category 3,<= 20 Days,48,SVB rechtsgegevens,0.2711864
+10,Category 4,<= 30 Days,53,SVB rechtsgegevens,0.299435
+10,Category 5,> 30 Days,44,SVB rechtsgegevens,0.2485876
+11,Category 1,<= 5 Days,39,SVB rechtsgegevens,0.1638656
+11,Category 2,<= 10 Days,44,SVB rechtsgegevens,0.184874
+11,Category 3,<= 20 Days,92,SVB rechtsgegevens,0.3865546
+11,Category 4,<= 30 Days,63,SVB rechtsgegevens,0.2647059
+11,Category 5,> 30 Days,0,SVB rechtsgegevens,0
+12,Category 1,<= 5 Days,44,SVB rechtsgegevens,0.1605839
+12,Category 2,<= 10 Days,32,SVB rechtsgegevens,0.1167883
+12,Category 3,<= 20 Days,115,SVB rechtsgegevens,0.419708
+12,Category 4,<= 30 Days,21,SVB rechtsgegevens,7.664233e-02
+12,Category 5,> 30 Days,62,SVB rechtsgegevens,0.2262774
+10,Category 1,<= 5 Days,20,Toekennen NP,3.921569e-02
+10,Category 2,<= 10 Days,17,Toekennen NP,3.333334e-02
+10,Category 3,<= 20 Days,152,Toekennen NP,0.2980392
+10,Category 4,<= 30 Days,266,Toekennen NP,0.5215687
+10,Category 5,> 30 Days,55,Toekennen NP,0.1078431
+11,Category 1,<= 5 Days,25,Toekennen NP,3.731343e-02
+11,Category 2,<= 10 Days,23,Toekennen NP,3.432836e-02
+11,Category 3,<= 20 Days,170,Toekennen NP,0.2537313
+11,Category 4,<= 30 Days,351,Toekennen NP,0.5238806
+11,Category 5,> 30 Days,101,Toekennen NP,0.1507463
+12,Category 1,<= 5 Days,20,Toekennen NP,3.521127e-02
+12,Category 2,<= 10 Days,14,Toekennen NP,2.464789e-02
+12,Category 3,<= 20 Days,137,Toekennen NP,0.2411972
+12,Category 4,<= 30 Days,166,Toekennen NP,0.2922535
+12,Category 5,> 30 Days,231,Toekennen NP,0.4066902
+10,Category 1,<= 5 Days,71,Verzoek Info eigen situatie,0.1265597
+10,Category 2,<= 10 Days,130,Verzoek Info eigen situatie,0.2317291
+10,Category 3,<= 20 Days,319,Verzoek Info eigen situatie,0.5686275
+10,Category 4,<= 30 Days,21,Verzoek Info eigen situatie,3.743315e-02
+10,Category 5,> 30 Days,20,Verzoek Info eigen situatie,3.565062e-02
+11,Category 1,<= 5 Days,258,Verzoek Info eigen situatie,0.3909091
+11,Category 2,<= 10 Days,182,Verzoek Info eigen situatie,0.2757576
+11,Category 3,<= 20 Days,115,Verzoek Info eigen situatie,0.1742424
+11,Category 4,<= 30 Days,83,Verzoek Info eigen situatie,0.1257576
+11,Category 5,> 30 Days,22,Verzoek Info eigen situatie,3.333334e-02
+12,Category 1,<= 5 Days,88,Verzoek Info eigen situatie,0.2820513
+12,Category 2,<= 10 Days,51,Verzoek Info eigen situatie,0.1634615
+12,Category 3,<= 20 Days,79,Verzoek Info eigen situatie,0.2532051
+12,Category 4,<= 30 Days,40,Verzoek Info eigen situatie,0.1282051
+12,Category 5,> 30 Days,54,Verzoek Info eigen situatie,0.1730769
+10,Category 1,<= 5 Days,2609,Voorbereiden NP,0.90811
+10,Category 2,<= 10 Days,20,Voorbereiden NP,6.961364e-03
+10,Category 3,<= 20 Days,137,Voorbereiden NP,4.768535e-02
+10,Category 4,<= 30 Days,44,Voorbereiden NP,0.015315
+10,Category 5,> 30 Days,63,Voorbereiden NP,2.19283e-02
+11,Category 1,<= 5 Days,2732,Voorbereiden NP,0.9248477
+11,Category 2,<= 10 Days,28,Voorbereiden NP,9.478673e-03
+11,Category 3,<= 20 Days,91,Voorbereiden NP,3.080569e-02
+11,Category 4,<= 30 Days,53,Voorbereiden NP,1.794177e-02
+11,Category 5,> 30 Days,50,Voorbereiden NP,1.69262e-02
+12,Category 1,<= 5 Days,3063,Voorbereiden NP,0.9124218
+12,Category 2,<= 10 Days,56,Voorbereiden NP,1.668156e-02
+12,Category 3,<= 20 Days,118,Voorbereiden NP,3.515043e-02
+12,Category 4,<= 30 Days,64,Voorbereiden NP,1.906464e-02
+12,Category 5,> 30 Days,56,Voorbereiden NP,1.668156e-02

@@ -1,0 +1,6 @@
+processDurationCategory,categoryCriteria,processCategoryCount
+Category 1,<= 1 Days,48
+Category 2,<= 5 Days,17
+Category 3,<= 10 Days,54
+Category 4,<= 15 Days,232
+Category 5,> 15 Days,1397

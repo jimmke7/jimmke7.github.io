@@ -1,0 +1,9 @@
+Vraag GBA abonnement aan,Vraag Gba en Svb abonnement aan eind GW,941
+Vraag Gba en Svb abonnement aan eind GW,Vraag Gba en Svb abonnement aan eind GW,941
+Vraag Gba en Svb abonnement aan eind GW,Vraag Gba en Svb abonnement aan start GW,941
+Vraag Gba en Svb abonnement aan start GW,Vraag Gba en Svb abonnement aan start GW,941
+Vraag Gba en Svb abonnement aan start GW,Vraag SVB abonnement aan,941
+Vraag SVB abonnement aan,Einde,941
+
+
+deze regels in de dataset laten het programma vast lopen, alleen regel 6 is behouden

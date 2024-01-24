@@ -1,0 +1,26 @@
+processName,processDurationCategory,categoryCriteria,processCategoryCount,percentageValue
+Beeind. agv overlijden,Category 1,<= 5 Days,1490,0.9637775
+Beeind. agv overlijden,Category 2,<= 10 Days,35,2.263907e-02
+Beeind. agv overlijden,Category 3,<= 20 Days,19,1.228978e-02
+Beeind. agv overlijden,Category 4,<= 30 Days,2,1.293661e-03
+Beeind. agv overlijden,Category 5,> 30 Days,0,0
+SVB rechtsgegevens,Category 1,<= 5 Days,91,0.1320755
+SVB rechtsgegevens,Category 2,<= 10 Days,100,0.1451379
+SVB rechtsgegevens,Category 3,<= 20 Days,255,0.3701016
+SVB rechtsgegevens,Category 4,<= 30 Days,137,0.1988389
+SVB rechtsgegevens,Category 5,> 30 Days,106,0.1538462
+Toekennen NP,Category 1,<= 5 Days,65,3.718536e-02
+Toekennen NP,Category 2,<= 10 Days,54,3.089245e-02
+Toekennen NP,Category 3,<= 20 Days,459,0.2625858
+Toekennen NP,Category 4,<= 30 Days,783,0.4479405
+Toekennen NP,Category 5,> 30 Days,387,0.2213959
+Verzoek Info eigen situatie,Category 1,<= 5 Days,417,0.2720157
+Verzoek Info eigen situatie,Category 2,<= 10 Days,363,0.2367906
+Verzoek Info eigen situatie,Category 3,<= 20 Days,513,0.334638
+Verzoek Info eigen situatie,Category 4,<= 30 Days,144,9.393346e-02
+Verzoek Info eigen situatie,Category 5,> 30 Days,96,6.262231e-02
+Voorbereiden NP,Category 1,<= 5 Days,8404,0.9150697
+Voorbereiden NP,Category 2,<= 10 Days,104,1.132404e-02
+Voorbereiden NP,Category 3,<= 20 Days,346,3.767421e-02
+Voorbereiden NP,Category 4,<= 30 Days,161,1.753049e-02
+Voorbereiden NP,Category 5,> 30 Days,169,1.840157e-02

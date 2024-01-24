@@ -1,0 +1,121 @@
+.node rect {
+  cursor: move;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  font-family: 'Overpass', sans-serif;
+  pointer-events: none;
+  color: rgb(189, 189, 189);
+}
+
+#main-node-text{
+  font-weight: 700;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .5;
+}
+
+.link:hover {
+  stroke-opacity: .7;
+}
+
+.linkValueText {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+
+/* Link Fill classes */
+.goodToGoodLink{
+  stroke: #ABBCE9;
+}
+
+.badToBadLink{
+  stroke: #FC9648;
+}
+
+.stop-left {
+  stop-color: #ABBCE9;
+}
+
+.stop-right {
+  stop-color: #FC9648;
+}
+
+
+.outlined {
+  fill:   none;
+  stroke: url(#mainGradient);
+}
+
+div.tooltip {
+  background: rgb(224, 224, 224);
+  color: black;
+  position: absolute;			
+  text-align: left;			
+  width: fit-content;					
+  height: fit-content;					
+  padding: 5px 10px;				
+  font: 15px sans-serif;
+  border: 0px;		
+  border-radius: 8px;			
+  pointer-events: none;			
+}
+
+
+.sankey-legend{
+  font-family: 'Overpass', sans-serif;
+  font-size: 15pt;
+  padding: 20px 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.orange-legend-box{
+  margin-top: 8px;
+  margin-right: 5px;
+  display: inline-block;
+  background-color: #FC9648;
+  width: 15px;
+  height: 15px;
+}
+
+.blue-legend-box{
+  margin-top: 8px;
+  margin-right: 5px;
+  display: inline-block;
+  background-color: #5174D4;
+  width: 15px;
+  height: 15px;
+}
+
+
+
+/* Buttons design */
+.buttons-box{
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  padding: 0px 425px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.div-button{
+  vertical-align: center;
+  padding: 15px 0px;
+  border: 1px #FFB765 solid;
+  font-family: 'overpass', sans-serif;
+  font-weight: 300;
+  background-color: rgb(255, 255, 255);
+}
+
+.div-button:hover{
+  cursor: pointer;
+  background-color: rgb(255, 240, 224);
+}
